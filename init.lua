@@ -8,7 +8,10 @@ if not vim.loop.fs_stat(lazypath) then
   })
 end
 vim.opt.rtp:prepend(lazypath)
+vim.pack.add{ 'https://github.com/neovim/nvim-lspconfig' }
 
+
+require("lsp")
 require("options")
 require("keymaps")
 

@@ -34,3 +34,4 @@ map("n", "<leader>h", ":nohlsearch<CR>", { desc = "Clear highlights" })
 -- Quick save/quit
 map("n", "<leader>w", ":w<CR>",  { desc = "Save" })
 map("n", "<leader>q", ":q<CR>",  { desc = "Quit" })
+
